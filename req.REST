@@ -2,7 +2,7 @@ POST http://localhost:5500/api/item
 Content-Type: application/json
 
 {
-    "item": "Tarea Ejemplo #001 en Atlas"
+    "item": "Tarea Ejemplo #003 en Atlas"
 }
 
 ###
@@ -12,15 +12,15 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:5500/api/item/63e6dc83a0fe7f6395c79313
+PUT http://localhost:5500/api/item/63f3d07fbba38785307d22be
 Content-Type: application/json
 
 {
-    "item": "Cambia la tarea 002 por Tarea 003"
+    "item": "Cambia la Tarea Ejemplo #002 en Atlas por Tarea 003"
 }
 
 ###
 
-DELETE http://localhost:5500/api/item/63e6dc7ea0fe7f6395c79311
+DELETE http://localhost:5500/api/item/63f3b3c31c20f0c242bf12c7
 Content-Type: application/json
 

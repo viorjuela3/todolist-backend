@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const cors = require('cors');
 const corsOptions ={
-    origin:'https://todolist-backend-zeta.vercel.app', 
+    origin:'https://todolist-backend-9awj7llqu-viorjuela3.vercel.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
